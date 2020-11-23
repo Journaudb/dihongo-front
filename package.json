@@ -10,9 +10,10 @@
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "core-js": "^3.7.0",
     "@vue/cli-ui": "^4.3.0",
+    "axios": "^0.21.0",
+    "buefy": "^0.9.4",
+    "core-js": "^3.7.0",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.6",
     "vue-i18n": "^8.22.2",
