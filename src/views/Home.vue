@@ -1,17 +1,16 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+  <section class="home">
+    <NumberDecomposition />
+  </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import NumberDecomposition from "@/components/NumberDecomposition.vue";
 
 @Component({
   components: {
-    HelloWorld,
+    NumberDecomposition,
   },
 })
 export default class Home extends Vue {}
